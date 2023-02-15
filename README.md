@@ -1,2 +1,2 @@
 # Polished-Portfolio
-My Portfolio for the year 2023
+Introducing My Portfolio
