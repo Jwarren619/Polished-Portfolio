@@ -1,0 +1,178 @@
+* {
+    font-family: monospace;
+    color: rgb(5, 4, 4);
+
+    
+  }
+  
+  
+  #page-header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 2rem;
+    border-bottom: 3px solid rgb(249, 249, 249);
+    
+  }
+  #page-header img {
+
+    display: flex;
+    height: 90px;
+    width: 110px;
+    
+  }
+
+
+  .name {
+    margin-right: 55%;
+    
+  }
+  
+  #navbar {
+  }
+  .flex-list {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    font-size: 1.11rem;
+  }
+  
+  .nav-item {
+    flex: 1 0 5%;
+    margin: 0 1rem;
+  }
+  
+  a:hover {
+    background-color: rgb(54, 95, 229);
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+  }
+  #main-content {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .section-header {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 10%;
+  }
+  
+  #project-section {
+
+  }
+  #about-section,
+  #contact-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 3rem auto 0 15%;
+    padding: 1rem;
+    border-left: 3px solid rgb(252, 252, 252);
+  }
+  
+  .project {
+    margin-right: auto;
+    padding: 10px;
+   
+  }
+  
+  .project-large {
+    font: bold;
+    color: white;
+    flex: 1 0 80%;
+    height: 300px;
+    border: 2px solid rgb(245, 245, 245);
+  }
+
+ strong {
+    color: rgb(4, 3, 3);
+    font-size: large;
+ }
+  
+  .project-small1 {
+    background-image: url("../../Assets/Images/Portfolio-Photo-3.png");
+    background-color: transparent;
+    color: rgb(249, 249, 249);
+    font-size: larger;
+    height: 150px;
+    background-attachment:local;
+    background-position: 50%;
+    background-repeat: no-repeat;   
+    background-size:auto;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .project-small2  {
+    background-image:url("https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=2000");
+    background-attachment:local;
+        background-position: 50%;
+        background-repeat:no-repeat; 
+       background-size:cover;
+    color: white;
+    height: 150px;
+    border: 2px solid rgb(248, 248, 248);
+  }
+
+  .project-small3  {
+    background-image: url("../../Assets/Images/Portfolio-Photo-4.png");
+    background-attachment: local;
+        background-position: 50%;
+        background-repeat: no-repeat; 
+        background-size: cover;    
+    color: white;
+    height: 150px;
+    border: 2px solid rgb(248, 248, 248);
+  }
+
+   .project-small4 {
+    background-image: url("../../Assets/Images/Portfolio-Photo-6.png");
+    background-attachment: local;
+        background-position: 50%;
+        background-repeat: no-repeat; 
+        background-size: cover;    
+    color: white;
+    height: 150px;
+    border: 2px solid rgb(248, 248, 248);
+   }
+
+
+
+  @media screen and (max-width: 600px) {
+    .flex-list {
+      flex-flow: column nowrap;
+      text-align: right;
+    }
+  }
+ul {
+
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+footer {
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a:hover {
+    background-color: rgb(56, 133, 242);
+    text-decoration: none;
+    color: rgb(233, 233, 233);
+}
